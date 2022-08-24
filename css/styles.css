@@ -1,10 +1,30 @@
+body {
+    background-color: #838383;
+}
+
+h1,
+h2,
+li,
+p {
+    font-family: 'Courier New', Courier, monospace, Arial;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
 .main-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 900px;
-    height: auto;
-    
+    height: auto;    
 }
 
 .page-main-title {
@@ -12,18 +32,43 @@
     margin-top: 0;
     margin-bottom: 0;
     font-size: 50px;
+    color: white;
 }
 
 .container {
     text-align: center;
 }
 
-.unordered-list {
+.list-item {
     display: inline-block;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.list-item,
+.description-message {
+    padding-bottom: 20px;
+}
+
+.list-item li {
+    background-color: #8FE3CF;
+    color: #8FE3CF;
     text-align: left;
 }
 
-.unordered-list li {
+.list-item li.normal {
+    padding-bottom: 15px;
+    color: white;
+    background-color: transparent;
+}
+
+.description-message {
     font-size: 20px;
-    padding-bottom: 5px;
+
+}
+
+.return-home {
+    text-align: center;
 }
